@@ -22,30 +22,33 @@ https://github.com/dabu3393/Breakout-Game/assets/97137252/ec88014e-cb1a-4af7-994
 
 ## Getting Started
 
-The PDF to Audiobook Converter is a user-friendly Python application that enables users to effortlessly transform PDF documents into audio files. It serves as a handy tool for converting text-based content from PDFs into MP3 audio files, effectively creating audiobooks that are accessible on the go.
+The Breakout Game is a classic arcade game implemented in Python using the Turtle graphics library. The objective of the game is to use a paddle to bounce a ball and break a wall of bricks. The player's goal is to clear all the bricks while preventing the ball from falling off the screen.
 
 ## Key Features
 
-- **User-Friendly Interface**: The application offers a simple and intuitive graphical user interface, making it easy for users to select PDF files and convert them into audiobooks with just a few clicks.
+- **Paddle and Ball**: Control a paddle to bounce a ball and prevent it from falling off the screen.
 
-- **Seamless PDF Selection**: Users can select the PDF file they wish to convert using a built-in file dialog. The chosen PDF file is displayed on the interface for easy reference.
+- **Brick Wall**: Break a wall of bricks by bouncing the ball into them.
 
-- **Google Cloud Text-to-Speech**: The converter leverages the power of the Google Cloud Text-to-Speech API to synthesize high-quality audio from the text content extracted from the PDF.
+- **Scoring**: Earn points for each brick broken. Try to achieve the highest score.
 
-- **Customizable Audiobooks**: The application allows users to choose from a variety of voice options, languages, and audio encoding settings to customize their audiobooks according to their preferences.
+- **Lives**: You have a limited number of lives. If the ball falls off the screen, you lose a life.
 
-- **Download to Local Directory**: The resulting MP3 audiobook is saved in the user's local "Downloads" directory for convenient access.
+- **Speed Control**: The game becomes progressively faster as you play.
 
-- **Clear User Feedback**: The application provides clear feedback about the conversion process and displays a success message upon the successful creation of the audiobook.
+- **Game Over**: The game ends when you run out of lives or clear all the bricks.
+
+- **Keyboard Controls**: Use the "Left" and "Right" arrow keys to move the paddle.
 
 ## Usage
-
-1. Open the application.
-2. Click the "Select PDF" button to choose a PDF file for conversion.
-3. Click the "Convert" button to start the conversion process.
-4. The resulting audiobook is saved to your local "Downloads" directory.
+1. Run the breakout_game.py script to start the game.
+2. Use the "Left" and "Right" arrow keys to move the paddle left and right.
+3. Bounce the ball off the paddle to hit the bricks.
+4. Try to clear all the bricks while keeping the ball in play.
+5. Score points for each brick broken.
+6. The game ends when you run out of lives or clear all the bricks.
 
 ## Required Downloads
 I have included a requirements.txt, which you should download in your virtual environment.
 
-[Requirements](https://github.com/dabu3393/Convert-PDF-to-Audiobook/blob/main/requirements.txt)
+[Requirements](https://github.com/dabu3393/Breakout-Game/blob/main/requirements.txt)
